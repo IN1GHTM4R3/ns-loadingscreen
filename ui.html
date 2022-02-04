@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--meta basics-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--css files-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acme&display=swap" >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="html/styles.css">
+        <!--js files-->
+        <script src="html/app.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <img class="background-img" src="assets/bg.png"></img>
+        <!--rightside container-->
+        <div class="ls-container">
+            <!--Logo & Under Text-->
+            <div class="serverlogo">
+                <img class="logo" src="assets/logo.png">
+            </div>
+            <h1 class="tagline">Whitelisted - Roleplay - Economy</h1>
+            <!--Changelog Title-->
+            <h1 class="changelog">----- <span style="color:#ffffff; font-size:24px;">Changelog</span> -----</span></h1>
+            <!--Discord-->
+            <h1 class="discord-url1"><span style="color:#ffffff; font-size:30px;">Join Our</span> <br>Discord Server!</h1>
+            <img class="discordlogo" src ="assets/discord.svg">
+            <h1 class="discord-url2"><br>/ <i>af3x612y</i></h1>
+            <!--Loading Text-->
+            <h1 class="h1-flicker">Server <span class="blink">Loading...</span></h1>
+            <!--Video--> <!--Video is not included so label it what your video is-->
+            <video class="video" src="assets/video.mp4" type="video/mp4" autoplay loop muted controls>Your browser does not support the video tag.</video>
+            <!--Music Text & Cover Art-->
+            <div class="artistframe">
+                <img class="albumart" src ="assets/album1.png">
+                <div class="artistwrap"><div class="artistmove">
+                    <div class="artist"><span style="color:#17db9a;">Song Title</span> - Song Artist. (Change This).</div>
+                </div></div>
+            </div>
+        </div>
+        <!--Changelog List-->
+        <div class="changeloglist">
+            <ul class="cl-list">
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+                <li><span style="color:#17db9a;">(New)</span> - Item Goes Here</li>
+            </ul>
+        </div>
+        <!--Progress Bar and music Section-->
+        <div class="ls-footer">
+            <div class="progressbar"></div>
+            <audio id="audio" class="music" autoplay controls>
+                <source src="assets/awake.mp3" type="audio/mp3"> <!--Change this song | This one is DMCA free music as well.-->
+                <script>
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.3;
+                </script>
+            </audio>
+            <div class="footerbox">
+            </div>
+        </div>
+    </body>
+</html>
