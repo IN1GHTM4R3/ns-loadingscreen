@@ -5,7 +5,8 @@
 
 ## Please note
 
-- I have built the loading screen for resolution of 1080p if you have a higher res, you can convert for your size ratio or make it responsive and send a pr.
+- I have built the loading screen for resolution of 1080p.
+- If you have a higher res, I am gonna work on making it more responsive. If you want to convert for your size ratio by all means.
 
 - standalone resource
 
