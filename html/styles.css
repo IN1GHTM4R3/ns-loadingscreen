@@ -453,8 +453,9 @@ body {
   .artistmove:hover { animation-play-state: paused; }
 
   .background-img {
-    width: 1920px;
-    height: 1080px;
+    width:100vw; /* Matches to the Viewport Width */
+    height:auto;
+    max-width:100% !important;
     margin: 0;
     padding: 0;
     overflow: hidden;
