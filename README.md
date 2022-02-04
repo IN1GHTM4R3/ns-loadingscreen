@@ -6,9 +6,12 @@
 ## Please note
 
 - I have built the loading screen for resolution of 1080p.
+
 - If you have a higher res, I am gonna work on making it more responsive. If you want to convert for your size ratio by all means.
 
-- standalone resource
+- Standalone resource
+
+- Video will need to be replaced (must be mp4 format and under 50mb to work) 
 
 - This Script was tested on the latest build as of 02/3/2021.
 
