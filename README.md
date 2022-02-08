@@ -5,7 +5,7 @@
 
 ## Please note
 
-- I have built the loading screen for resolution of 1080p.
+- I have built the loading screen for resolution of 1080p. -(Pushed a patch to fix for dynamic background based on viewport)
 
 - If you have a higher res, I am gonna work on making it more responsive. If you want to convert for your size ratio by all means.
 
