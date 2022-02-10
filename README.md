@@ -1,7 +1,7 @@
 # ns-loadingscreen
 (v1.1.0) Simple Loading Screen - Loading Bar, MP3 Audio &amp; Controls, and MP4 Video.
 
-#Just Added
+# Just Added
 - Added more visual responsiveness
 - Moved the artist box up so its not covered anymore by Game Loading Text
 - Added another option for a full screen video background option as well - Turned on by default
