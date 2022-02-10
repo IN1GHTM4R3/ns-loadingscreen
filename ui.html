@@ -20,18 +20,19 @@
             <!--Logo & Under Text-->
             <div class="serverlogo">
                 <img class="logo" src="assets/logo.png">
+                <h1 class="tagline">Whitelisted - Roleplay - Economy</h1>
             </div>
-            <h1 class="tagline">Whitelisted - Roleplay - Economy</h1>
+
             <!--Changelog Title-->
             <h1 class="changelog">----- <span style="color:#ffffff; font-size:24px;">Changelog</span> -----</span></h1>
             <!--Discord-->
             <h1 class="discord-url1"><span style="color:#ffffff; font-size:30px;">Join Our</span> <br>Discord Server!</h1>
             <img class="discordlogo" src ="assets/discord.svg">
             <h1 class="discord-url2"><br>/ <i>af3x612y</i></h1>
-            <!--Loading Text-->
-            <h1 class="h1-flicker">Server <span class="blink">Loading...</span></h1>
             <!--Video--> <!--Video is not included so label it what your video is-->
-            <video class="video" src="assets/video.mp4" type="video/mp4" autoplay loop muted controls>Your browser does not support the video tag.</video>
+            <video class="video-bg" src="assets/drift.mp4" type="video/mp4" autoplay loop muted controls>Your browser does not support the video tag.</video>
+            <!--If you want the video on the right with a still background like v1.0.0 uncomment this video and comment the one above 
+                <video class="video-right" src="assets/drift.mp4" type="video/mp4" autoplay loop muted controls>Your browser does not support the video tag.</video>-->
             <!--Music Text & Cover Art-->
             <div class="artistframe">
                 <img class="albumart" src ="assets/album1.png">
@@ -55,7 +56,11 @@
         </div>
         <!--Progress Bar and music Section-->
         <div class="ls-footer">
-            <div class="progressbar"></div>
+            <!--Loading Text-->
+            <div class="pb-container">
+                <h1 class="h1-flicker">Server <span class="blink">Loading...</span></h1>
+                <div class="progressbar"></div>
+            </div>
             <audio id="audio" class="music" autoplay controls>
                 <source src="assets/awake.mp3" type="audio/mp3"> <!--Change this song | This one is DMCA free music as well.-->
                 <script>

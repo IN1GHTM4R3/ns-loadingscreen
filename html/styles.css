@@ -4,6 +4,7 @@
 body {
   width: 1920px;
   height: 1080px;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -11,8 +12,8 @@ body {
 }
 
 .loadscreen-header {
-  width: 1920px;
-  height: 100px;
+  width: 100vw;
+  height: 10vh;
   position: absolute;
   top: 5px;
   left: 500px;
@@ -24,9 +25,11 @@ body {
     color: #e7e7e7;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin: 90px 425px auto;
     animation: travel 7s;
     position: absolute;
+    left: 25vw;
+    top: 12vh;
+    z-index: 1;
 
 }
 
@@ -37,8 +40,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    left: 950px;
-    top: 540px;
+    z-index: 1;
+
 }
 
 .tagline {
@@ -51,9 +54,10 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   animation: music 3s;
-  position: absolute;
-  top: 340px;
-  left: 750px;
+  margin-top: 0px;
+  position: relative;
+  bottom: 30vh;
+
 }
 
 .changelog {
@@ -67,8 +71,8 @@ body {
   text-align: center;
   font-weight: 900;
   position: absolute;
-  top: 5px;
-  right: 40px;
+  top: 4vh;
+  right: 2.75vw;
   z-index: 2;
 }
 
@@ -79,11 +83,12 @@ body {
   text-decoration: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
+  line-height: 2.5vh;
   text-transform: uppercase;
   font-weight: 600;
   position: absolute;
-  top: 65px;
-  right: 20px;
+  top: 9vh;
+  right: 1vw;
   inline-size: 250px;
   z-index: 2;
 }
@@ -92,15 +97,15 @@ body {
   color: #17db9a;
   font-family: 'Acme', sans-serif;
   text-decoration: uppercase;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 2px;
   line-height: 3.2vh;
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
   position: absolute;
-  top: 520px;
-  right: 45px;
+  bottom: 35vh;
+  right: 1.75vw;
   z-index: 2;
 }
 
@@ -109,8 +114,8 @@ body {
   height: 50px;
   color: #ffffff;
   position: absolute;
-  top: 620px;
-  right: 190px;
+  bottom: 29vh;
+  right: 9.5vw;
   z-index: 2;
 }
 
@@ -134,13 +139,12 @@ body {
   font-family: 'Acme', sans-serif;
   text-align: center;
   text-decoration: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 600;
-  position: absolute;
-  bottom: 16px;
-  left: 25px;
+  position: relative;
+  padding-left: 20vw;
   z-index: 2;
 }
 
@@ -151,8 +155,8 @@ body {
   border: 2px solid;
   border-color:#ffffff;
   position: absolute;
-  bottom: 10px;
-  right: 25px;
+  bottom: 6vh;
+  right: 1.25vw;
   z-index: 2;
 }
 
@@ -160,12 +164,21 @@ body {
   z-index: 2;
 }
 
-.video {
+.video-bg {
+  width:100vw; /* Matches to the Viewport Width */
+  height:auto;
+  max-width:150% !important;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.video-right {
   position: absolute;
   width: 360px;
   height: 225px;
-  top: 265px;
-  right: 10px;
+  top: 31vh;
+  right: 1vw;
   z-index: 2;
   overflow: hidden;
 }
@@ -207,8 +220,8 @@ body {
 }
 
 .footerbox {
-  width: 350px;
-  height: 110%;
+  width: 35vw;
+  height: 102vh;
   background-color:#000000;
   border-radius: 8px;
   border: solid 2px;
@@ -222,13 +235,19 @@ body {
   
 }
 
+.pb-container {
+  width: 50vw;
+  height: 3vh;
+  position: absolute;
+  left: 41.5vw;
+  bottom: 3.5vh;
+}
+
 .progressbar {
-    width: 1380px;
-    max-width: 1380px;
+    width: 100vw;
+    max-width: 80vw;
     height: 10px;
-    position: absolute;
-    bottom: 2.3vh;
-    left: 46%;
+    position: center;
     background: rgba(255, 255, 255, 0.075);
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -390,7 +409,7 @@ body {
     display: flex;
     position: absolute;
     right: 140px;
-    bottom: 10px;
+    bottom: 6vh;
     z-index: 2;
   }
 
@@ -424,8 +443,8 @@ body {
     width: 280px;
     height: 100px;
     position: absolute;
-    right: 12px;
-    bottom: 15px;
+    right: 1vw;
+    bottom: 6vh;
     z-index: 1;
   }
    
@@ -456,12 +475,9 @@ body {
     width:100vw; /* Matches to the Viewport Width */
     height:auto;
     max-width:100% !important;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     position: absolute;
-    opacity: 95%;
-    top: 0;
-    left: 0;
+    top: 0vh;
+    left: 0vw;
     z-index: 0;
   }
